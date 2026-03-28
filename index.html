@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            body{
+                background-color: lightgrey;
+            }
+            #nawigacja, #nawigacja2{
+                display: flex;
+                justify-content: right;
+                margin-right: 125px;
+                width: 90%;
+            }
+            button{
+                background-color: inherit;
+                border-color: red;
+                border-radius: 0%;
+                margin: 5px;
+                font-size: x-large;
+                color: white;
+            }
+            #naglowek, #stopka{
+                display: flex;
+            }
+            #naglowek{
+                background-color: red;
+                height: 70px;
+                display: fixed;
+                width: 100%;
+            }
+            #logo, #logo2{
+                width: 10%;
+            }
+            p{
+                display: flex;
+                justify-content: center;
+                font-size: xx-large;
+            }
+            #stopka{
+                background-color: red;
+                position: fixed;
+                width: 100%;
+                height: 70px;
+                margin-top: 50px;
+            }
+            .okno{
+                margin: 10px;
+                background-color: white;
+                height: 300px;
+            }
+            .div_okno{
+                margin-left: 10%;
+                margin-right: 10%;
+                display: flex;
+                justify-content: center;
+            }
+            img{
+                margin: 5px;
+                height: 64px; 
+                width: 64px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="naglowek">
+            <div id="logo">
+                <img src="HTML5_logo.png">
+            </div>
+            <div id="nawigacja">
+                <button>Menu</button>
+                <button>Kontakt</button>
+                <button>O nas</button>
+            </div>
+        </div>
+        <div>
+            <p>Witaj na stronie</p>
+            <div class="div_okno">
+                <div class="okno" style="width: 30%;"></div>
+                <div class="okno" style="width: 50%;"></div>
+            </div>
+            <div class="div_okno">
+                <div class="okno" style="width: 35%;"></div>
+                <div class="okno" style="width: 45%;"></div>
+            </div>
+        </div>
+        <div id="stopka">
+            <div id="logo2">
+                <img src="HTML5_logo.png">
+            </div>
+            <div id="nawigacja2">
+                <button>Menu</button>
+                <button>Kontakt</button>
+                <button>O nas</button>
+            </div>
+        </div>
+    </body>
+</html>
